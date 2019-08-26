@@ -32,7 +32,7 @@ class SignUp extends Component{
             })
         }
         catch(error){
-            console.error(error);
+            console.log(error);
         }
     }
     handleChange=async (e)=>{
